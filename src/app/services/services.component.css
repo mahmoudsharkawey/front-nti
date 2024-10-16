@@ -1,0 +1,31 @@
+.cards {
+  min-height: 100vh;
+  background-color: #f9e74e; /* Yellow background */
+  /* position: relative; */
+}
+
+.title {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  color: #000000; /* Darker title color */
+  font-size: 2.5em; /* Increased font size */
+  font-weight: 700; /* Slightly lighter font weight */
+  margin-bottom: 30px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  text-align: center;
+}
+
+h3 {
+  color: #000000; /* Darker title color */
+}
+
+.icon
+{
+  color: #000000;
+}
